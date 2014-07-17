@@ -28,7 +28,7 @@ Car.prototype.off = function(){
 Car.prototype.driveTo = function(destination){
 	console.log("Driving to " + destination);
 };
-Car.prototype.park = function(destination){
+Car.prototype.park = function(){
 	if(this.state === "off"){
 		console.log("Parked!");
 	} 
