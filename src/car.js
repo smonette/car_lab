@@ -1,4 +1,4 @@
-require('locus');
+// require('locus');
 
 
 function Car(make, model, year, color){
@@ -63,20 +63,24 @@ myOldCar.currentOwner = "Santa Ana Honda";
 
 
 
-// Testing the functions
-myCar.sale('Steph Monette');
-myOldCar.paint('magenta');
-myCar.start();
-myCar.driveTo("San Luis Obispo.");
-myCar.park();
-myOldCar.park();
-myCar.pickup('Amy');
-myOldCar.pickup('Tofu');
-myCar.dropoff('Amy');
+// Maunal Tests for the functions
+
+// myCar.sale('Steph Monette');
+// myOldCar.paint('magenta');
+// myCar.start();
+// myCar.driveTo("San Luis Obispo.");
+// myCar.park();
+// myOldCar.park();
+// myCar.pickup('Amy');
+// myOldCar.pickup('Tofu');
+// myCar.dropoff('Amy');
+
+
+module.exports = Car;
 
 
 
 
 
+// eval(locus);
 
-eval(locus);
